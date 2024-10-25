@@ -1,0 +1,17 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block contentTitle %}
+    Register Patients
+{% endblock contentTitle %}
+
+{% block content %}
+
+    <form action="" method="POST">
+    {% csrf_token %}
+    {{form|crispy}}
+    <input type = "submit" value ="submit">
+
+    </form>
+{% endblock content %}

@@ -1,0 +1,28 @@
+ECHO is on.
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+*.env
+.env
+
+# Virtualenv
+venv/
+env/
+.venv/
+.env/
+.env.bak/
+.python-version
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Ignore large face_recognition.obj files
+

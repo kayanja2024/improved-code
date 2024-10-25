@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <link rel="stylesheet" href="{% static 'styles/scan.css' %}">
+</head>
+<body>
+   
+   
+   <div>
+      <div style="text-align: center;">
+         <video id="video-element" autoplay="true"></video>
+         <img id="img-element" alt="Photo">
+      </div>
+
+      <div id="img-element"></div>
+
+      <div style="text-align: center;font: size 30px;">
+         <button id="capture-btn" style="color:rgb(237, 237, 243);font-size:30px; background-color: blue;">Take Photo</button>
+         <!-- <button style="color:rgb(237, 237, 243);font-size:30px; background-color: blue;" class="btn btn-primary" id="takePhotoButton">take photo</button> -->
+         <button style="color:rgb(233, 238, 235);font-size:30px; background: #4f8b49;" class="btn btn-info" id="reload-btn">reload</button>
+         
+      </div>
+   </div>
+   
+
+   <!-- <div>
+      <div style="text-align: center;">
+         <video id="video" autoplay="true"></video>
+         <img id="photo" alt="Photo">
+      </div>
+
+      <div id="img-element"></div>
+
+      <div style="text-align: center;font: size 30px;">
+         <button id="takePhotoButton" style="color:rgb(237, 237, 243);font-size:30px; background-color: blue;">Take Photo</button> -->
+         <!-- <button style="color:rgb(237, 237, 243);font-size:30px; background-color: blue;" class="btn btn-primary" id="takePhotoButton">take photo</button> -->
+         <!-- <button style="color:rgb(233, 238, 235);font-size:30px; background: #4f8b49;" class="btn btn-info" id="reload-btn">reload</button>
+         
+      </div>
+   </div> -->
+
+   
+   <script src="{% static 'scripts/login.js'%}" defer></script>
+   
+</body>
+</html>
